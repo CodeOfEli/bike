@@ -8,7 +8,7 @@ class Bicycle(object):
 		return "The Bike is Called: {}".format(self.model)
 
 
-class BikeShop: 
+class BikeShop:
 	def __init__(self, name, profit): #, inventory={}, margin="", profit=""): 
 		self.name = name
 		#self.inventory = inventory
